@@ -1,9 +1,7 @@
 'use strict';
 
-const browser = window.browser || window.chrome;
-
 /*
-  함수의 default 파라미터 넣기
+  default parameter : 함수의 default 파라미터 넣기
 */
 
 function 더하기(a, b = 5) { // 파라미터 디폴트값 
@@ -27,3 +25,7 @@ function 임시함수() {
 }
 
 빼기(50);
+
+/*
+
+*/
