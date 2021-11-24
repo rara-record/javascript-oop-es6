@@ -1,8 +1,8 @@
 # javascript-oop-es6
-## 목차
+## Contents
 1. [PART1](#PART1)
-1. [PART2](#PART2)
-1. [PART3](#PART3)
+3. [PART2](#PART2)
+5. [PART3](#PART3)
 ## PART1
 - [this](https://github.com/rara-record/javascript-oop-es6/tree/this)
 - [variable](https://github.com/rara-record/javascript-oop-es6/tree/variable)
