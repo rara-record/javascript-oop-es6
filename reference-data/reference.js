@@ -36,34 +36,57 @@ console.log(변경(컬러)) // {name: 'green'}
 console.log(컬러) // { name: 'red' }
 
 
-/*
-  왜그러냐면 함수 만들 때 파라미터라는건,
-  일종의 변수처럼 생성되고 사라지는 존재라고 보면 된다.
-  그냥 쉽게 말하면 변수다.
-*/
-
+// 해설
 {
   // (인간의 시점)
 
-  const 이름1 = { name: '김' };
+  const 컬러 = { name: 'red' };
   function 변경(obj) {
-    obj = { name: 'park' };
+    obj = { name: 'green' }
+    return obj;
   }
-  변경(이름1);
-
-
-
-  // (자바스크립트의 시점) : 자바스크립트가 파라미터를 만들고 사용할땐 대충 이렇게 만든다고 생각하면 된다
-
-  const 이름1 = { name: '김' };
-  function 변경(obj) {
-    obj = { name: 'park' };
-  }
-  변경(const obj = 이름1);
-  /* 
-  obj라는 파라미터자리에 이름1이라는 변수를 집어넣으면
-  const obj = 이름1 이렇게 파라미터형 변수를 만든겁니다.
-  */
+  변경(컬러)
 }
+
+
+{
+  // (자바스크립트의 시점)
+
+  const 컬러 = { name: 'red' };
+  function 변경(obj) {
+    obj = { name: 'green' }
+    return obj;
+  }
+  변경(const obj = 컬러)
+}
+
+/*
+함수 만들 때 파라미터라는건,
+일종의 변수처럼 생성되고 사라지는 존재라고 보면 된다.
+그냥 쉽게 말하면 변수다.
+obj라는 파라미터자리에 이름1이라는 변수를 집어넣으면
+const obj = 컬러 이렇게 파라미터형 변수를 만든것.
+obj = 컬러를 복사해서 넣으면 obj, 컬러는 서로 같은 화살표를 갖게 되며,
+{ name: 'red' } 의 값을 공유한다.
+
+하지만 함수 내부에 obj = { name : 'green'}을 재할당해주고 있으므로,
+이것은 obj이라는 변수에 새로운 화살표를 재할당 한것이지,
+실제 컬러라는 변수는 전혀 건드리지 않고 있다.
+그래서 결국 컬러는 바뀌지 않는다.
+*/
+
+// 이렇게 하면 변경됨
+{
+  const 컬러 = { name: 'red' };
+
+  function 변경(obj) {
+    obj.name = 'green';
+  }
+
+  변경(컬러);
+  console.log(컬러); // {name: 'green'}
+}
+
+
 
 
