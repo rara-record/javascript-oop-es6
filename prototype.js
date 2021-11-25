@@ -1,5 +1,6 @@
 
-// prototype
+// prototype의 상속기능
+
 function 나는생성자함수(name, age) {
   this.name = name;
   this.age = age;
