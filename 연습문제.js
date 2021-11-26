@@ -106,7 +106,7 @@ const data = {
   },
 
   oddEvenNumber: function (...number) {
-    number.forEach((num) => { // arrow function 안쓰면 this가 window
+    number.forEach((num) => {
       if (num % 2 === 1) {
         this.odd.push(num)
       } else {
@@ -117,4 +117,5 @@ const data = {
 }
 
 data.oddEvenNumber(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+
 
