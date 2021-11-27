@@ -12,8 +12,8 @@ person['weight'] = 100; // 기본 키값 저장
 person[weight] = 200; // 심볼 키값 저장
 
 for (let key in person) {
-  console.log(key)
-  console.log(person[key])
+    console.log(key)
+    console.log(person[key])
 }
 
 // 특징1. 설명이 같다고 같은 symbol이 아니다.
