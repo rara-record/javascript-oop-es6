@@ -23,5 +23,5 @@ console.log(a === b) // false
 
 // 특징2. 전역 변수같은 전역 Symbol
 const c = Symbol.for('설명');
-const d = Symbol.for('설명');
+const d = Symbol.for('설명'); // 이미 존재하는 Symbol을 쓰겠다.
 console.log(c === d) // ture
