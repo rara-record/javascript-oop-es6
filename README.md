@@ -14,5 +14,9 @@
 - [async-await](https://github.com/rara-record/javascript-oop-es6/tree/async-await)
 - [for-in_for-of](https://github.com/rara-record/javascript-oop-es6/tree/for-in_for-of)
 - [symbol](https://github.com/rara-record/javascript-oop-es6/tree/symbol)
+- [map-set](https://github.com/rara-record/javascript-oop-es6/tree/map-set)
+
+
+
 
 
