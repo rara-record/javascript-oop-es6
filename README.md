@@ -9,7 +9,7 @@
 
 - [arguments-rest-prameter](https://github.com/rara-record/javascript-oop-es6/tree/arguments-rest-prameter) 
 - [reference-data-type](https://github.com/rara-record/javascript-oop-es6/tree/reference-data-type)
-- [prototype](https://github.com/rara-record/javascript-oop-es6/tree/prototype)
+- [class-prototype](https://github.com/rara-record/javascript-oop-es6/tree/class-prototype)
 - [getter-setter](https://github.com/rara-record/javascript-oop-es6/tree/getter-setter)
 - [extends-super](https://github.com/rara-record/javascript-oop-es6/tree/extends-super)
 ## part3
