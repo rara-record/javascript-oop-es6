@@ -1,6 +1,6 @@
 'use strict';
 
-/* Spread, REST 파라미터 연습문제 */
+/* Spread, Rest 파라미터 연습문제 */
 
 {
   // spread 문제1. 코드의 출력 결과는?
@@ -8,6 +8,8 @@
   const b = '김밥';
   const c = [...b, ...a];
   console.log(c); // ['김', '밥', 1, 2, 3]
+  // 글자를 spread하면 한글자씩 콤마로 분열이되고,
+  // array를 spread하면 대괄호를 제거한다
 }
 
 
@@ -17,7 +19,8 @@
   const b = ['you', 'are'];
   const c = function (a, b) {
     console.log([[...a], ...[...b]][1]) // you 
-    // console.log([1, 2, 3], ...'you', 'are'[1]) : 대괄호 하나씩 벗기기
+    // console.log([ [1, 2, 3], ...['you', 'are'] ] [1]) 
+    // console.log([ [1, 2, 3], 'you', 'are' ] [1]) 
   }
   c(a, b);
 }
@@ -70,7 +73,8 @@
   */
 
   var numbers = [2, 3, 4, 5, 6, 1, 3, 2, 5, 5, 4, 6, 7];
-  console.log(Math.max(...numbers)); // 7
+  console.log(...numbers) // array ...spread 대괄호 사라짐
+  console.log(Math.max(...numbers)); // 7 
   console.log(Math.max.apply(null, numbers)); // 7
 
 }
@@ -113,12 +117,12 @@
 
   function 글자세기(words) {
     const result = {};
-    [...words].forEach((word) => {
+    [...words].forEach((key) => {
       // 만약에 결과에 a가 있으면 +1; 없으면 a : 1 집어넣으셈
-      if (result[word]) {
-        result[word] += 1;
+      if (result[key]) {
+        result[key] += 1;
       } else {
-        result[word] = 1;
+        result[key] = 1;
       }
     })
     console.log(result)
