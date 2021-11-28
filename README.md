@@ -7,9 +7,9 @@
 - [reference-data-type](https://github.com/rara-record/javascript-oop-es6/tree/reference-data-type)
 - [prototype](https://github.com/rara-record/javascript-oop-es6/tree/prototype) (class, prototype)
 - [getter-setter](https://github.com/rara-record/javascript-oop-es6/tree/getter-setter)
-- [extens-super](https://github.com/rara-record/javascript-oop-es6/tree/extens-super)
+- [extends-super](https://github.com/rara-record/javascript-oop-es6/tree/extends-super)
 ## part3
-- [Destructuring](https://github.com/rara-record/javascript-oop-es6/tree/Destructuring)
+- [destructuring](https://github.com/rara-record/javascript-oop-es6/tree/destructuring)
 - [promise](https://github.com/rara-record/javascript-oop-es6/tree/promise)
 - [async-await](https://github.com/rara-record/javascript-oop-es6/tree/async-await)
 - [for-in_for-of](https://github.com/rara-record/javascript-oop-es6/tree/for-in_for-of)
