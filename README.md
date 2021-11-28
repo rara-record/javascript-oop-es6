@@ -1,9 +1,13 @@
 # javascript-oop-es6
 
+- [this](https://github.com/rara-record/javascript-oop-es6/tree/this)
 - [variable](https://github.com/rara-record/javascript-oop-es6/tree/variable)
+- [spread-operator](https://github.com/rara-record/javascript-oop-es6/tree/spread-operator)
 - [apply-call](https://github.com/rara-record/javascript-oop-es6/tree/apply-call)
+- 
 ## part2
-- [spread-rest](https://github.com/rara-record/javascript-oop-es6/tree/spread-rest) 
+
+- [arguments-rest-prameter](https://github.com/rara-record/javascript-oop-es6/tree/arguments-rest-prameter) 
 - [reference-data-type](https://github.com/rara-record/javascript-oop-es6/tree/reference-data-type)
 - [prototype](https://github.com/rara-record/javascript-oop-es6/tree/prototype)
 - [getter-setter](https://github.com/rara-record/javascript-oop-es6/tree/getter-setter)
