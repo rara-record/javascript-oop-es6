@@ -1,6 +1,7 @@
 # javascript-oop-es6 💛
 ## 자바스크립트 객체지향, ES6 정리
 
+## part1
 - [this](https://github.com/rara-record/javascript-oop-es6/tree/this)
 - [variable](https://github.com/rara-record/javascript-oop-es6/tree/variable)
 - [spread-operator](https://github.com/rara-record/javascript-oop-es6/tree/spread-operator)
