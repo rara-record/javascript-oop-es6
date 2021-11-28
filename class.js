@@ -7,9 +7,9 @@ class 부모 {
     this.sayHi = function () { console.log('hi') } // 모든 자식이 공통적으로 가짐
   }
 
-  sayHello() { // 여기에 쓰면 부모.prototype에 추가
+  sayHello() { // 나는야 메소드
     console.log('hello');
-  }
+  } // 여기에 쓰면 부모.prototype에 추가
 }
 
 const 자식 = new 부모('bora');
