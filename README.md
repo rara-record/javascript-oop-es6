@@ -5,7 +5,7 @@
 ## part2
 - [spread-rest](https://github.com/rara-record/javascript-oop-es6/tree/spread-rest) 
 - [reference-data-type](https://github.com/rara-record/javascript-oop-es6/tree/reference-data-type)
-- [prototype](https://github.com/rara-record/javascript-oop-es6/tree/prototype) (class, prototype)
+- [prototype](https://github.com/rara-record/javascript-oop-es6/tree/prototype)
 - [getter-setter](https://github.com/rara-record/javascript-oop-es6/tree/getter-setter)
 - [extends-super](https://github.com/rara-record/javascript-oop-es6/tree/extends-super)
 ## part3
