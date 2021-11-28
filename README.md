@@ -4,7 +4,6 @@
 - [variable](https://github.com/rara-record/javascript-oop-es6/tree/variable)
 - [spread-operator](https://github.com/rara-record/javascript-oop-es6/tree/spread-operator)
 - [apply-call](https://github.com/rara-record/javascript-oop-es6/tree/apply-call)
-- 
 ## part2
 
 - [arguments-rest-prameter](https://github.com/rara-record/javascript-oop-es6/tree/arguments-rest-prameter) 
